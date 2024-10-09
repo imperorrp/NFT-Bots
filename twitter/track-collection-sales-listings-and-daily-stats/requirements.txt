@@ -1,0 +1,4 @@
+python_dateutil==2.8.2
+requests==2.27.1
+tweepy==4.5.0
+web3==5.23.0

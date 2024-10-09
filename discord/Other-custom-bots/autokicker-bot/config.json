@@ -1,0 +1,6 @@
+{
+    "admin_role":"",
+    "allowed_time":3600,
+    "guild_ids":[],
+    "admin_channel_ids":[]
+}

@@ -1,0 +1,39 @@
+changelog
+
+v1(15th feb 2022)-----------------------------
+- opensea to twitter sales tracking bot 
+- uses oauth1 to accept PIN from an auth link to generate that user's access token/secret
+
+v@1(15th feb 2022)-----------------------------
+- opensea to twitter sales tracking bot, same as v1
+- oauth uses pregiven access token/secret (along with standard consumer key/secret)- for an app created by the end-user on the
+twitter developer platform
+
+v1.1(15th feb 2022)----------------------------
+
+
+---v2.0(16th April 2022)---------------------------------------------
+Updating get_sales() to grab data off of Opensea's altered /events api endpoint parameters (next page, no 'occurred_after').
+With SVG support. 
+
+---v3.0(16th April 2022)-----------------------------
+Incorporating threading and a collection_stats retrieval function to tweet at regular intervals as well
+
+---v3.1(17th April 2022)-----------------------------------
+Editing, simplifying tweet messages to fall within Twitter tweet limit (280 chars).
+
+---v3.1 unemployables(17th April 2022)-------------------------
+Copy of v3.1 made specifically for opensea collection 'unemployables'. Some modifications added- "%t ..." print message
+formats, fixed the last event check v/s current checked event logical fallacy ('<' instead of '>'), declared+initialized 
+latest_cdate variable in get_sales(). Replaced time.sleep with await asyncio.sleep(x) and converted stats thread function to 
+an async one. Requirements.txt also generated (pipreqs)
+
+---v4.0(30th April 2022)----------------------------------
+copying v3.1 template off of pebblehost (working version except daily stats). 
+to fix: stats not being posted daily after the first time- has to be fixed.
+
+additional features to add:
+-replies to sale event tweet with trait data/info (forming a thread)
+-more frequent stat updates: list of sales/listings/volume in last hour every hour?
+
+

@@ -1,0 +1,15 @@
+ #Apply filter to check if listing meets condition (if x, => (below statement))
+                    price = listobj['starting_price']  
+                    eth_formatted_price = Web3.fromWei(int(listobj['starting_price']), 'ether')
+                    if (eth_formatted_price<=(max_price)):
+                        print(f'Price meets condition. Checking traits...')
+                        i=0
+                        for item in listobj['traits']:
+                            trait_type = listobj['traits'][i]['trait_type']
+                            if (trait_type == trait_cat):
+                                trait_name = listobj['traits'][i]['value']
+                                if (trait_name == trait):
+                                    print(f'Matching trait/trait category found.')
+                                    #calc rarity by trait_count and comparing with total number of assets in the collection, pass to embed_sender_lists
+                                    await embed_sender_lists(listobj, ctx)
+                            i+=1

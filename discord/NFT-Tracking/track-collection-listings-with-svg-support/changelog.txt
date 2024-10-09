@@ -1,0 +1,11 @@
+#changelog
+
+---v2.0s---------------------------------------------
+v2.0s for Opensea Sales Discord F1, but modified for listings:
+ - get_sales2() -> get_lists2(): 'created' passed as event_type parameter in api call instead of 'successful'
+ - embed_sender_sales() -> embed_sender_lists(): 'xyz listed!', listed for, lister 
+
+With SVG support. 
+
+Testing: []
+Status: []

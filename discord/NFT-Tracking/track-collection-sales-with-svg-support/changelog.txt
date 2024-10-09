@@ -1,0 +1,24 @@
+#changelog
+
+---v1-----------------------------------------------
+
+---v1.1---------------------------------------------
+format 1 sales with svg-> png conversion (using python svglib)
+
+---v1.12s--------------------------------------------
+SVG -> PNG conversion (using cairosvg) to prevent error:'Tile cannot extend out of image' issue 
+- Title of embeds now includes name (if name exists), PLUS the collection name + ID in brackets
+- Updates last_check_time to latest asset event's sale time (over actual last 'check' time) to prevent misses 
+  due to late opensea api updates.
+- fixed: timezone mismatch issue on date_obj->unix time conversion (hard-passing utc time zone as a parameter to prevent 
+  using local time-zone. Check relevant code in main.py for more details.)
+
+---v1.12---------------------------------------------
+same as above but without svg images on opensea^
+
+---v2.0s---------------------------------------------
+Updating get_sales() to grab data off of Opensea's altered /events api endpoint parameters (next page, no 'occurred_after').
+With SVG support. 
+
+Testing: []
+Status: []

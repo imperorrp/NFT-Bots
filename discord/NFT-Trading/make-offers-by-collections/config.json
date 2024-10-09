@@ -1,0 +1,8 @@
+{
+    "buyer_wallet_address" : "",
+    "wallet_mnemonic":"",
+    "infura_api_key":"",
+    "collection_slug":"",
+    "offer_amount":"",
+    "offer_duration":""
+}

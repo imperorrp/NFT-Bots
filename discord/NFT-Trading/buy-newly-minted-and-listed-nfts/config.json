@@ -1,0 +1,9 @@
+{
+    "buyer_wallet_address" : "",
+    "wallet_mnemonic":"",
+    "infura_api_key":"",
+    "listing_channel_id":"",
+    "minting_channel_id":"",
+    "check_opsea_account_address":"",
+    "init_check_time":""
+}

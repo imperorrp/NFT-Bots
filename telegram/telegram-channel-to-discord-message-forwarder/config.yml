@@ -1,0 +1,32 @@
+#Fill out the below config info:
+
+# This has to be an integer. Read more [here](https://core.telegram.org/api/obtaining_api_id) | No quotes
+api_id: 
+
+# Long 32 characters hash identifier. Read more [here](https://core.telegram.org/api/obtaining_api_id) | With quotes
+api_hash: 
+
+# Session name. Only one session (with a unique session name) can run at a time | With quotes
+session_name: 'teledisc_forwarder_ses' 
+
+# Discord Bot Token. Go create a bot on discord. | No quotes
+discord_bot_token: 
+
+# Discord Channels | No quotes (Enter the channel ID you want messages forwarded to)
+discord_1_channel: 
+#discord_2_channel: ************************
+#discord_3_channel: ************************
+#discord_4_channel: ************************
+
+# The Telegram channel names that you'd like to forward messages from-
+# (The user running the client must have these channels present on it's dialogs)
+input_channel_names:
+  - 'Binance English' # some examples
+  - 'Coin Bureau Insider' 
+  - 'Ash WSB' 
+
+# The Telegram channel IDs that you'd like to forward messages from. Just get channel id from channels you put as input_channel_names above (You can get a channel ID by forwarding any message from it to @userinfobot , and removing the -100 from the start ) 
+# (Or check channel IDs from the 'dialogs' text file created after running the bot at least once -in the same directory)
+input_channel_ids: 
+  - '-1001146170...'
+#  - ********** 
