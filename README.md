@@ -74,3 +74,5 @@ Some updates may be required- the Twitter (Now X) API, for example, has seen a l
 ![track-collection-listings](image-7.png)
 
 ![track-collections-sales-listings-and-daily-stats](image-8.png)
+
+![track-collections-sales-listings-and-daily-stats-2](image-9.png)
