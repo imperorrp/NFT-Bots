@@ -53,13 +53,18 @@ Some updates may be required- the Twitter (Now X) API, for example, has seen a l
 
 ## Screenshots/Links 
 
-- The Twitter NFT collection tracking bot: I had a demo up running on a personal server (shoutout to Pebblehost!) to showcase functionality: https://x.com/EthImperor 
+### The Twitter NFT collection tracking bot: I had a demo up running on a personal server (shoutout to Pebblehost!) to showcase functionality: https://x.com/EthImperor 
 
 ![twitter-track-collection](image.png)
 ![twitter-track-collection-2](image-1.png)
 ![twitter-track-collection-3](image-2.png)
 
-- Some of the Discord bots:
+---------------------------
+
+
+
+ ### Some of the Discord bots:
+
 
 ![buy-newly-minted-and-listed-nfts](image-3.png)
 
@@ -76,3 +81,5 @@ Some updates may be required- the Twitter (Now X) API, for example, has seen a l
 ![track-collections-sales-listings-and-daily-stats](image-8.png)
 
 ![track-collections-sales-listings-and-daily-stats-2](image-9.png)
+
+--------------------------
